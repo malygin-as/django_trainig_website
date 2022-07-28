@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title%} Тайтл БЭЙЗ {% endblock %}</title>
+    <link href="{% static 'style.css' %}" rel="stylesheet">
+</head>
+<body>
+<h1>ШАПКА!</h1>
+{% block content %}
+{% endblock %}
+
+<h1>!ПОДВАЛ</h1>
+</body>
+</html>
